@@ -15,8 +15,10 @@ These instructions will get you to setup the project, install sdk and add packag
 ### Installing
 1.  Install .net SDK 7<br>
 [Download .NET SDK here.](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
-2.  Create new Web API's project<br>
-`dotnet new webapi –-name API`
+2.  Create new Web API's project (Please create main project with empty and add below to the main project)<br>
+`dotnet new webapi –-name YARP.Proxy`<br>
+`dotnet new webapi –-name Course.Api`<br>
+`dotnet new webapi --name Student.Api`<br> 
 3.  Add package to YARP.Proxy's project
      - YARP<br>
        `dotnet add package yarp`
