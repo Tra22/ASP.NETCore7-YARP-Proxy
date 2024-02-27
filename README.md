@@ -21,7 +21,7 @@ These instructions will get you to setup the project, install sdk and add packag
 `dotnet new webapi --name Student.Api`<br> 
 3.  Add package to YARP.Proxy's project
      - YARP<br>
-       `dotnet add package yarp`
+       `dotnet add package Yarp.ReverseProxy`
      - Microsoft Authentication with JWT
        `dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer -v 7.0.15`
 ## Languages and Tools
